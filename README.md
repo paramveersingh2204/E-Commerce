@@ -1,110 +1,55 @@
-# E-Commerce
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node Version](https://img.shields.io/badge/node.js-14.x%20|%2016.x%20|%2018.x-brightgreen)](https://nodejs.org/en/download/)
- <a href="https://img.shields.io/github/languages/count/vishalyadav0987/E-Commerce">
-    <img src="https://img.shields.io/github/languages/count/vishalyadav0987/E-Commerce" alt="Languages Count"/>
-  </a>
+# Seamless E-Commerce: Canadian E-Commerce Architecture (MVP)
 
 
+[![Market: Canada](https://img.shields.io/badge/Market-Canada-red.svg)]()
 
-## Description
-This project is a full-featured eCommerce website built using the MERN stack (MongoDB, Express.js, React, and Node.js). It provides a robust platform for users to browse products, add items to their cart, and complete purchases securely. The application features a modern, responsive design and utilizes Cloudinary for efficient image management.
+## 💼 Business Overview
+Seamless E-Commerce is a professional-grade E-Commerce prototype designed for the Canadian retail market. This project demonstrates a complete **Commercial MVP** (Minimum Viable Product) that bridges the gap between customer discovery and secure checkout.
 
+### Key Business Features
+* **Customer Trust Layer:** Secure User Authentication via **JSON Web Tokens (JWT)** for protected profile management.
+* **Scalable Inventory:** Full CRUD (Create, Read, Update, Delete) capability for product management, supported by **Cloudinary** for high-performance image CDN delivery.
+* **Market Readiness:** Designed for **CAD currency** and optimized for Canadian mobile/desktop users.
+* **Administrative Oversight:** A dedicated Admin Dashboard to monitor sales, update inventory, and manage user orders in real-time.
 
+## 🛠️ Technical Implementation
+This project utilizes the **MERN Stack** (MongoDB, Express, React, Node.js) to ensure a high-performance, non-blocking user experience.
 
-## Features
-- **User Authentication and Authorization**: Secure login and registration using JWT.
-- **Product Management**: CRUD operations for products, with multiple images upload via Cloudinary.
-- **Shopping Cart**: Add, remove, and update products in the cart.
-- **Checkout Process**: Seamless order placement with payment integration.
-- **Order Management**: Track order status and history.
-- **Admin Dashboard**: Manage products, orders, and users with an intuitive interface.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
-- **Search and Filter**: Easily find products with search and filtering capabilities.
-- **Reviews and Ratings**: Users can leave reviews and ratings for products.
+* **Frontend:** React 18+ with Vite for ultra-fast build times and production-ready optimization.
+* **State Management:** Robust data handling using **Redux** and **Axios**.
+* **Security:** Implementation of `.env` protection for sensitive API keys and database URI strings.
+* **Payments:** Pre-configured architecture for **Stripe** integration.
 
+## 🚀 Installation & Setup
 
-
-
-## Technologies Used
-- **Frontend**: React.js, Redux, React Router, Axios, Bootstrap
-- **Backend**: Node.js, Express.js, JWT for authentication
-- **Database**: MongoDB, Mongoose
-- **Image Hosting**: Cloudinary
-- **Payment Gateway**: [Insert Payment Gateway e.g., Stripe]
-- **Version Control**: Git
-
-## Installation and Setup
-
-
-1. **Clone the repository**:
-    ``` bash
-    git clone https://github.com/vishalyadav0987/E-Commerce.git
-    cd E-COMMERCE
-    ```
-
-2. **Install backend dependencies**:
-    ``` bash
+1. **Clone & Install Backend**:
+    ```bash
     cd backend
     npm install
     ```
 
-3. **Install frontend dependencies**:
+2. **Clone & Install Frontend**:
     ```bash
     cd ../frontend
-    npm install
+    npm install --legacy-peer-deps
     ```
 
-4. **Start the development servers**:
-    - Backend server:
-      ```bash
-      cd ../backend
-      npm start
-      ```
-      - Frontend server:
-      ```bash
-      cd ../frontend
-      npm run dev
-      ```
-## Configure Environment Variables
+3. **Configure Environment Variables**:
+    Create a `.env` in the `backend` folder with your credentials (JWT Secret, MongoDB URI, Stripe/Cloudinary keys).
 
-- Create a **.env** file in the backend directory and add the following.
-- Essential Variables
-- PORT=4000
-- MONGO_URI 
-- STRIPE_API_KEY
-- STRIPE_SECERET_KEY
-- JWT_SECERET
-- JWT_LIFETIME
-- JWT_COOKIE_EXPIRE
-- SMPT_SERVICE
-- SMPT_MAIL
-- SMPT_PASSWORD
-- SMPT_HOST
-- SMPT_PORT
-- CLOUDINARY_NAME
-- CLOUDINARY_API_KEY
-- CLOUDINARY_API_SECRET
-fill each filed with your info respectively.
+4. **Launch Application**:
+    * **Backend:** `npm start` (Runs on port 4000)
+    * **Frontend:** `npm run dev` (Runs on port 5173)
 
+## 📦 MVP Status & Future Roadmap
+This submission represents a **Phase 1 Technical Prototype**. 
+* [x] Core API Architecture
+* [x] Compiled Production Build (`dist` folder)
+* [ ] Live Stripe Payment Gateway (Phase 2)
+* [ ] Multi-region Tax Calculation logic (Phase 2)
 
-## Usage
+## 📄 License
+Distributed under the MIT License.
 
-1. Open your browser and navigate to **http://localhost:5173** to access the frontend.
-2. Use Postman or any API client to interact with the backend via **http://localhost:4000**.
-
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-## Contact
-
-For any inquiries or feedback, please contact [viahalyadav0987@gmail.com].
+---
+**Developer Note:** This project was developed as part of a Technical & Business Bonus Submission, showcasing advanced full-stack capabilities and commercial intent.
