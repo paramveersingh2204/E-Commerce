@@ -48,8 +48,6 @@ This submission represents a **Phase 1 Technical Prototype**.
 * [ ] Live Stripe Payment Gateway (Phase 2)
 * [ ] Multi-region Tax Calculation logic (Phase 2)
 
-## 📄 License
-Distributed under the MIT License.
 
 ---
 **Developer Note:** This project was developed as part of a Technical & Business Bonus Submission, showcasing advanced full-stack capabilities and commercial intent.
