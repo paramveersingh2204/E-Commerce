@@ -35,23 +35,24 @@ This project utilizes the **MERN Stack** (MongoDB, Express, React, Node.js) to e
     ```
 
 3. **Configure Environment Variables**:
-Create a .env file in the backend directory and add the following.
-Essential Variables
-PORT=4000
-MONGO_URI
-STRIPE_API_KEY
-STRIPE_SECERET_KEY
-JWT_SECERET
-JWT_LIFETIME
-JWT_COOKIE_EXPIRE
-SMPT_SERVICE
-SMPT_MAIL
-SMPT_PASSWORD
-SMPT_HOST
-SMPT_PORT
-CLOUDINARY_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET fill each filed with your info respectively.
+- Create a **.env** file in the backend directory and add the following.
+- Essential Variables
+- PORT=4000
+- MONGO_URI 
+- STRIPE_API_KEY
+- STRIPE_SECERET_KEY
+- JWT_SECERET
+- JWT_LIFETIME
+- JWT_COOKIE_EXPIRE
+- SMPT_SERVICE
+- SMPT_MAIL
+- SMPT_PASSWORD
+- SMPT_HOST
+- SMPT_PORT
+- CLOUDINARY_NAME
+- CLOUDINARY_API_KEY
+- CLOUDINARY_API_SECRET
+fill each filed with your info respectively.
 
 4. **Launch Application**:
     * **Backend:** `npm start` (Runs on port 4000)
